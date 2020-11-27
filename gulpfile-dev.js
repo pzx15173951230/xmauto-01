@@ -35,8 +35,8 @@ task('upload', async ()=>{
   .pipe(load.connect.reload())
 })
 task('uploadms', async ()=>{
-  src('./upload/ms/*.*')
-  .pipe(dest('./dist/upload/ms'))
+  src('./upload/sm/*.*')
+  .pipe(dest('./dist/upload/sm'))
   .pipe(load.connect.reload())
 })
 task('datasm', async ()=>{
